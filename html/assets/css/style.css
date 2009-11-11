@@ -1,0 +1,191 @@
+body {
+	background:#484848;
+	font: normal normal 1em/1.5em Georgia, sans-serif;
+	color:#666;
+}
+
+#wrapper {
+	width:900px;
+	padding:0px 20px;
+	margin:10px auto 20px auto;
+}
+
+
+.home #wrapper {
+	margin:20px auto;
+}
+
+#wrapper p.error {
+	color:#990000;
+	border:1px solid #990000;
+	padding:5px 20px;
+	background:#f3f3f3;
+}
+
+
+/* =============================== */
+/* = Header styles and structure = */
+/* =============================== */
+#header {
+	height:45px;
+	margin:0 auto;
+	width:900px;
+	padding:0 20px;
+}
+
+
+
+/* =================================== */
+/* = Navigation styles and structure = */
+/* =================================== */
+
+#header ul#navigation {
+	width:680px;
+	float:right;
+	list-style:none;
+	padding:0;
+	margin:20px -100px 0 0;
+}
+
+#header ul#navigation li {
+	float:left;
+	margin:0 10px 0 0;
+	padding:0;
+}
+
+#header ul#navigation li a {
+	padding:5px 10px 3px 10px;
+	background:#ccc;
+	margin:0;
+	text-decoration:none;
+	color:#B7F4FA;
+}
+
+#header ul#navigation li a:hover, #header ul#navigation li a.active {
+	background:#fff;
+	color:#F79316;
+}
+
+
+#sideNav {
+	float:left;
+	width:160px;
+	border:1px solid #f2f2f2;
+	margin:10px 20px 20px -180px;
+}
+
+#sideNav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#sideNav  ul li {
+	border-bottom:1px dotted #ccc;
+}
+
+#sideNav  ul li, #sideNav  ul li a {
+	padding:10px 10px;
+	color:#323232;
+	text-decoration:none;
+}
+
+#sideNav  ul li:hover, #sideNav  ul li.active  {
+	background:#f2f2f2;
+}
+
+/* ================= */
+/* = Content area  = */
+/* ================= */
+
+
+#content {
+	background: #fff url('../img/admin_body.png') repeat-y;
+	width:720px;
+	margin:0;
+	padding:10px 20px 10px 200px;
+	float:left;
+}
+
+#footer {
+	width:900px;
+	height:34px;
+	margin:0;
+	padding:0px 20px;	
+	clear:both;
+	background:#fff;
+}
+
+#wrapper h1 {
+	margin:0px 0 50px 0 ;
+	text-indent:-9999px;
+}
+
+h2.toggle {
+	line-height:46px;
+	text-indent:60px;
+	cursor:pointer;
+}
+
+/* ======================================== */
+/* = Main element styles - Generic styles = */
+/* ======================================== */
+
+h1, h3, h4, a {
+	color:#BF2428;
+}
+
+h2 {
+	color:#BF2428;
+}
+
+input[type="text"] {
+	border:1px solid #B7F4FA;
+	color:#F38630;
+	padding:4px 2px;
+}
+
+.button {
+	border:1px solid #69D2E7;
+	color:#69D2E7;
+	background:#f2f2f2;
+	padding:4px 10px;
+	cursor:pointer;
+	text-align:center;
+	text-decoration:none;
+	font-size:140%;
+	margin:10px auto;
+}
+
+.center {
+	text-align:center;
+	padding:40px 0 10px 0;
+}
+
+
+/* ====================== */
+/* = Some Helpful stuff = */
+/* ====================== */
+
+#render {
+	font-size:10px;
+	text-align:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
